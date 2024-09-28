@@ -125,3 +125,9 @@ dmypy.json
 
 # Ignore vscode folder
 .vscode/**
+
+# Ignore SQL Session files
+*.session.sql
+
+# Ignore test files
+test_*.*
