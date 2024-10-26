@@ -1,17 +1,17 @@
 # Introduction
 The goal of this project is to fetch data from FastF1 and do visualisation and analysis on the received data.
 
-# Installation
-## Option 1: Use the VS Code Dev Containers
-1. Open VS Code
-2. Run `Rebuild and Reopen in Container` using the command pallete
+# Setup
+There are 3 services used in this project:
+1. Airflow
+2. Postgres
 
-## Option 2: Setup the local environment
-### (Recommended) Create a virtual environment
-To create a virtual environment run:
-```bash
-python -m venv .venv
+
+If you don't want ChartDB you can simply just run:
+```shell
+docker compose up
 ```
+
 
 To activate the environment run the following command:
 ```
