@@ -1,2 +1,6 @@
 # Ignore all files in docker dir
 docker/**/**
+
+# Don't ignore Postgres build files in docker dir
+!docker/Dockerfile_db
+!docker/postgres.sql
